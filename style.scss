@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Actor&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} // Reset básico para garantir que a página fique consistente em diferentes navegadores
+
+body{
+    background-color: rgb(151, 167, 195);
+}
+
+ul{
+    padding: 18px; // Espaçamento interno da lista
+    background-color: #1E1E1E; // Cor de fundo
+    font-family: "Lily Script One"; // Define a fonte para o texto da lista
+    list-style-type: none; // Remove os marcadores padrão da lista
+    display: flex;  // Usa o modelo de layout flexível
+    justify-content: space-around; // Distribui os itens igualmente com espaçamento entre eles
+    color: #FFFFFF; // Define a cor de texto para a ul
+    font-size: 1.5rem;
+
+    @media(min-width:201px) and (max-width: 500px){
+        font-size: 1.2rem;
+    }
+
+}
+
+
+.imgDisney img{
+    padding: 20px;
+    width: 100%; // Define a largura total da imagem para ocupar todo o espaço disponível
+    height: 40vh;
+
+    @media(min-width:201px) and (max-width: 500px){
+        width: 100%;
+        height: 30vh;
+    }
+}
+
+section {
+    display: flex;
+    justify-content: center; // Centraliza o conteúdo horizontalmente
+
+}
+
+.listaFilmes img{
+    padding: 10px;
+    width: 300px;
+    display: flex;
+    flex-direction: row; // Organiza os elementos em linha    
+
+    &:hover {
+        transform: scale(1.05)
+    }
+
+    @media(min-width:201px) and (max-width: 500px){
+        width: 100%;
+        height: 25vh;
+    }
+}
+
+.listaFilmes2 img{
+    padding: 10px;
+    width: 300px;
+    display: flex;
+
+    &:hover {
+        transform: scale(1.05)
+    }
+
+    @media(min-width:201px) and (max-width: 500px){
+        width: 100%;
+        height: 25vh;
+    }
+}
+
+.imgFooter img{
+    height: 50px;
+    margin: 5px;
+    padding: 5px;
+
+    @media(min-width:201px) and (max-width: 500px){
+        box-shadow:  #FFFFFF;
+        margin: 20px; // Define uma margem ao redor do elemento
+    }
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1E1E1E;
+    color: #FFFFFF;
+    font-family: "actor"; // Define a fonte personalizada para o texto
+    font-size: 1.5rem; // Define o tamanho da fonte como pequeno
+
+    @media(min-width:201px) and (max-width: 500px){ 
+        padding: 30px;
+        align-items: center; // Alinha os itens dentro do container ao centro do eixo transversal
+        text-align: center; // Alinha o texto dentro dos itens ao centro
+        font-size: 1.2rem; // Define o tamanho da fonte como 1.2 vezes o tamanho da fonte base
+        flex-direction: column;
+    }
+
+}
+

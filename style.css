@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Actor&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(151, 167, 195);
+}
+
+ul {
+  padding: 18px;
+  background-color: #1E1E1E;
+  font-family: "Lily Script One";
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  color: #FFFFFF;
+  font-size: 1.5rem;
+}
+@media (min-width: 201px) and (max-width: 500px) {
+  ul {
+    font-size: 1.2rem;
+  }
+}
+
+.imgDisney img {
+  padding: 20px;
+  width: 100%;
+  height: 40vh;
+}
+@media (min-width: 201px) and (max-width: 500px) {
+  .imgDisney img {
+    width: 100%;
+    height: 30vh;
+  }
+}
+
+section {
+  display: flex;
+  justify-content: center;
+}
+
+.listaFilmes img {
+  padding: 10px;
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+}
+.listaFilmes img:hover {
+  transform: scale(1.05);
+}
+@media (min-width: 201px) and (max-width: 500px) {
+  .listaFilmes img {
+    width: 100%;
+    height: 25vh;
+  }
+}
+
+.listaFilmes2 img {
+  padding: 10px;
+  width: 300px;
+  display: flex;
+}
+.listaFilmes2 img:hover {
+  transform: scale(1.05);
+}
+@media (min-width: 201px) and (max-width: 500px) {
+  .listaFilmes2 img {
+    width: 100%;
+    height: 25vh;
+  }
+}
+
+.imgFooter img {
+  height: 50px;
+  margin: 5px;
+  padding: 5px;
+}
+@media (min-width: 201px) and (max-width: 500px) {
+  .imgFooter img {
+    box-shadow: #FFFFFF;
+    margin: 20px;
+  }
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1E1E1E;
+  color: #FFFFFF;
+  font-family: "actor";
+  font-size: 1.5rem;
+}
+@media (min-width: 201px) and (max-width: 500px) {
+  footer {
+    padding: 30px;
+    align-items: center;
+    text-align: center;
+    font-size: 1.2rem;
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=style.css.map */
