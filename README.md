@@ -23,17 +23,14 @@ Este projeto consiste na criação de página inicial simples da Disney+, desenv
 
 ## Capturas de Tela
 
-## WEB
+## Web
 
 ![download](https://github.com/user-attachments/assets/d8d42b51-a66b-41b6-8c9d-dcdc14d6afe2)
-
 
 ## Responsivo
 
 <div align="center">
-
 <img src="https://github.com/user-attachments/assets/83f0d18d-d410-4a41-a79e-92f392277bf3" alt="Captura de Tela" width="300">
-
 </div>
 
 
@@ -45,5 +42,4 @@ Este projeto consiste na criação de página inicial simples da Disney+, desenv
 
 ## Autor
 
-* Rossana Frouf https://github.com/RossanaFrouf <br>
-https://www.linkedin.com/in/rossana-frouf/
+* Rossana Frouf <br> [GitHub](https://github.com/RossanaFrouf) | [LinkedIn](https://www.linkedin.com/in/rossana-frouf/)
