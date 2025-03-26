@@ -40,9 +40,10 @@ Este projeto consiste na criação de página inicial simples da Disney+, desenv
 ## Créditos
 
 * Projeto original desenvolvido no curso da Vai na Web https://vainaweb.com.br/.
-* Imagens e ícones utilizados atraves do Figma criado pelo curso https://www.figma.com/design/xfz72ArMARKGUGeog126Ki/Desafio-2?node-id=0-1&p=f&t=pmpksrM7U96s2UPd-0.
+* Imagens e ícones utilizados atraves do Figma criado pelo curso https://shre.ink/Mh73.
 * Site do projeto: https://rossanafrouf.github.io/Disney/
 
 ## Autor
 
-* Rossana Frouf - https://github.com/RossanaFrouf
+* Rossana Frouf https://github.com/RossanaFrouf <br>
+https://www.linkedin.com/in/rossana-frouf/
